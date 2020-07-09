@@ -1,0 +1,32 @@
+*{margin: 0;
+padding: 0;
+}
+body{
+    background: lavender;
+}
+header{
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+#wash,#stay,#work{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+#wear,#eat{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+p,h1,img{
+    margin:20px;
+}
